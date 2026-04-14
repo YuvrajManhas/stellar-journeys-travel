@@ -1,2 +1,13 @@
-# stellar-journeys-travel
-A premium travel agency web application built with Node.js, Express, MongoDB, and EJS. Features a modern glassmorphism UI and dynamic database integration for creating and viewing travel packages.
+Stellar Journeys | Premium Travel Agency
+A full-stack web application designed for a premium travel agency. Built from the ground up using Node.js, Express, MongoDB, and EJS, this project demonstrates how to connect a modern frontend user interface to a functional NoSQL database backend.
+
+Key Features
+Dynamic Frontend Rendering: Uses EJS templating to inject database records directly into the HTML.
+
+Modern UI/UX: Features a responsive, custom glassmorphism design with CSS animations and FontAwesome icons.
+
+RESTful Routing: Express.js handles GET requests to load the dashboard and POST requests to submit new travel packages.
+
+MongoDB Integration: Utilizes Mongoose to define data schemas and seamlessly save/retrieve user-generated travel packages from the database.
+
+Empty State Handling: Includes elegant fallback UI when the database has no records to display.
